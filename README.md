@@ -1,1 +1,43 @@
-# Country-Data-API
+# For those who want to host the API:
+
+## Step 1
+Use the *npm install* command to install everything from the *package.json*
+
+## Step 2
+Run this command:
+> npx node app.js
+
+And it's live!  
+
+
+# For those who want to call the API:
+
+## Step 1
+Write a normal URL addressed to the address of the API, and add relevant URL parameters. The example below of *"theapi.com"* is not a real website, you will need the address of the actual API. You will need to specify the country, and optionally you can call specific pieces of data out of a particular country's full dataset. So to get all of a country's data:
+
+> http://theapi.com/?country=1
+
+The above will give you all data for Afghanistan. If you want a specific piece of data for Afghanistan, use a second URL parameter like so:
+
+> http://theapi.com/?country=1&name
+
+No need to specify a particular value for the second parameter, as in fact you are calling the API in order to get that data. Here is the list of acceptable second URL parameters:
+
+- id
+- name
+- iso3
+- iso2
+- numeric_code
+- phone_code
+- capital
+- currency
+- currency_symbol
+- tld
+- native
+- region
+- subregion
+- timezones
+- latitude
+- longitude
+- emoji
+- emojiU
