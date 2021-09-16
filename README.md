@@ -13,7 +13,7 @@ And it's live!
 # For those who want to call the API:
 
 ## Step 1
-Write a normal URL addressed to the address of the API, and add relevant URL parameters. The example below of *"theapi.com"* is not a real website, you will need the address of the actual API. You will need to specify the country, and optionally you can call specific pieces of data out of a particular country's full dataset. So to get all of a country's data:
+Write a normal URL addressed to the address of the API, and add relevant URL parameters. The example below of *"theapi.com"* is not a real website, you will need the address of the actual API. You will need to specify the country, and optionally you can call specific pieces of data out of a particular country's full dataset. [The full list of country IDs is here](https://github.com/rileydlynch/Country-Data-API/blob/main/country-ids.csv). So to get all of a country's data:
 
 > http://theapi.com/?country=1
 
