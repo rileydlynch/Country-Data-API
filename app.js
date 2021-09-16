@@ -4,7 +4,7 @@ const app = express()
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-const getcountry = require('./get-country')
+const getcountry = require('./country-middleware')
 app.use('/getcountry', getcountry)
 
 app.listen(3010, (err) => {
