@@ -7,7 +7,9 @@ app.use(express.json())
 const getcountry = require('./country-middleware')
 app.use('/getcountry', getcountry)
 
-app.listen(3010, (err) => {
+const port = 3010;
+
+app.listen(port, (err) => {
     if (err) throw err
-    console.log('Server running in http://127.0.0.1:3010')
+    console.log(`Server running in port ${port}`)
 })
